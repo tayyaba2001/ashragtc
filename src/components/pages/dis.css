@@ -1,0 +1,42 @@
+.image-containerdis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    font-size: 40px;
+  }
+  
+  .image-containerdis img {
+ 
+    max-height: 150px; /* Set maximum height for the image */
+    overflow: hidden; 
+object-fit: cover;
+
+filter: brightness(100%);
+
+
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Allow the height to adjust based on the image's aspect ratio */
+  }
+
+
+  .color-div3456 {
+    background-color: #0077ffb6; /* Set your desired background color */
+   
+    /* Take up the full height of the viewport */
+    margin: 0 auto; 
+max-width: 1135px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally and vertically */
+}
+  .heading3456 {
+    color: rgb(255, 255, 255); /* Set text color */
+    font-family: var(--font-family1);
+    font-weight:900;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for better appearance */
+  }
+  

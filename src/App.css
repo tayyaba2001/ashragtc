@@ -1,6 +1,27 @@
 .App {
   text-align: center;
 }
+:root {
+  --yellow1: #ffe44b; /* Yellow */
+  --yellow2: #fffc45; /* Goldenrod */
+  --yellow3:  #f7d25a;; /* Lemon Chiffon */
+  --yellow4: rgba(247, 210, 90, 0.4); 
+  --gray1:#646363;
+  --gray:#f8f7f3;
+  --font-family1: 'Roboto', sans-serif; /* Default font family */
+  --font-family2: 'Open Sans', sans-serif; /* Second font family */
+  --font-family3: 'Montserrat', sans-serif; /* Third font family */
+  --font-size: 16px; 
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--font-family1); /* Default font family */
+  font-size: var(--font-size); 
+}
+
+
+
 
 .App-logo {
   height: 40vmin;

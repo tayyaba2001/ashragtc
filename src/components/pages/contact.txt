@@ -1,0 +1,84 @@
+
+
+class Contact extends React.Component {
+
+    scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scrolling behavior
+      });
+    };
+  
+  
+  
+    render() {
+      return (
+          <>
+        <div class="color-divcontact">
+    <h2 class="headingcontact">Our Field of Operations</h2>
+   
+  </div>
+  <section class="about-section3">
+  
+    <div class="container1">
+  
+  
+    <form id="contactForm">
+    <div class="form-row">
+      <div class="form-column ">
+        <div class="form-group center1">
+          <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required  onChange={this.handleInputChange}/>
+          <div class="required-message">This field is required</div>
+          <div class="error-message">Enter correct info</div> 
+        </div>
+      </div>
+      <div class="form-column ">
+        <div class="form-group center1">
+          <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required/>
+          <div class="error-message">Enter correct info</div> 
+        </div>
+      </div>
+  
+  
+  
+    </div>
+    <div class="form-row1">
+      <div class="form-column1 ">
+    <div class="form-group center">
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"/>
+    </div></div></div>
+  
+    <div class="form-row1">
+      <div class="form-column1 ">
+    <div class="form-group center">
+      <input type="text" id="subject" name="subject" placeholder="Enter the subject" required />
+    </div></div></div>
+  
+    <div class="form-row1">
+      <div class="form-column1 ">
+    <div class="form-group center">
+      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+    </div></div></div>
+    <div class="form-row1">
+      <div class="form-column1 ">
+    <div class="form-group center">
+      <button type="submit">Submit</button>
+    </div></div></div>
+  </form>
+  
+  {(!firstName) && (
+        <div class="required-message">This field is required</div>
+      )}
+
+
+
+
+  
+  </div></section>
+      </>
+        
+      );
+    }
+  }
+  
+  export default Contact;

@@ -1,0 +1,1354 @@
+
+.color-divh {
+  background-color: var(--yellow3);
+  /* Set your desired background color */
+ width:100% !important;
+ max-width: 100% !important;
+  display: flex;
+ 
+  justify-content: center; /* Center the heading horizontally */
+}
+
+.headingh {
+  color: white; /* Set text color */
+  font-family: var(--font-family1);
+  font-weight:900;
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add padding for better appearance */
+}
+
+
+/* Media query for small screens */
+
+
+
+.imageingbox189home img {
+   
+  max-width: 100%; 
+  
+  height: auto; /*  height:100%;   overflow: hidden; 
+  object-fit: cover;
+  
+  Ensure the image maintains its aspect ratio */
+  display: block;
+position: relative;
+  overflow: hidden; 
+  object-fit: cover;
+  max-height: 100px; /* Set maximum height for the image */
+ 
+
+filter: brightness(100%);
+
+}
+
+.imageingbox189home p {
+  font-size:40px;
+  
+  position: absolute;
+margin-right: 0;
+     /* Remove any default margins */
+  /* Remove any default padding */
+
+
+top:0;
+left:0;
+right: 0;
+bottom:0;
+/* Position the paragraph absolutely within its containing block */
+width: 100%;
+height: 100%;
+ /* Position it at the top of its containing block */
+
+  /* Adjust the margin to position the paragraph on top of the image */
+  background-color: rgba(0, 0, 0, 0.541); /* Transparent white background */
+  color: #ffffff; /* Set text color to white */
+  font-weight: bold; /* Set font weight to bold */
+/* Add some padding for better readability */
+  font-family: var(--font-family3); 
+
+
+  text-align: center; /*cenetr text horiontally*/
+  display: flex;
+  justify-content: center; /* Center the text vertically */
+  align-items: center;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+ 
+}
+
+
+
+
+@media (max-width: 767px) {
+ 
+
+  .imageingbox189home img {
+    width: 100%;
+    height: auto; 
+    max-height: 100px;
+      /* Reset maximum height for smaller screens */
+  }
+
+  .imageingbox189home p {
+    width: 100%;
+  
+    font-size:larger;
+  }
+}
+
+@media (min-width: 768px) {
+ 
+
+  .imageingbox189home img {
+    width: 100%;
+    height: auto; 
+    max-height: 100px;
+      /* Reset maximum height for smaller screens */
+  }
+
+  .imageingbox189home p {
+    width: 100%;
+   
+    font-size:larger;
+  }
+}
+
+/* Media queries for responsive design */
+@media (min-width: 1200px) {
+  .imageingbox189home img {
+    
+    /* Reset maximum height for medium screens */
+    width: 100%;
+    height: auto;
+    max-height: 100px; /* Set maximum height for the image */
+    overflow: hidden; 
+object-fit: cover;
+  }
+
+  .imageingbox189home p {
+    width: 100%;
+ 
+    font-size:larger;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outer-container {
+    margin-top: 0; /* Adjust the margin-top value as needed   .COTAINER padding: 20px; */
+    border: 2px solid white;
+    background-color: white;
+    font-family: var(--font-family1); 
+   
+  }
+
+  .whatsapp {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+   
+    display: flex;
+    align-items: center;
+     justify-content: center;
+   border-radius: 10px;
+      font-family: var(--font-family3);
+      font-size: 18px;
+    background-color: rgb(111, 255, 83);
+      border: 2px solid #000; /* Adjust border properties as needed */
+      padding: 5px; /* Adjust padding as needed */
+     flex-direction: row;
+     text-align: center;
+     color: white;
+     margin-left: 0 auto;
+    }
+
+    .whatsapp-icon {
+      font-size: 24px; /* Adjust font size as needed */
+      margin-right: 10px; /* Adjust margin as needed */
+      padding: 10px; /* Adjust padding as needed */
+      border-radius: 10px; /* Adjust border-radius for rounded corners */
+      background-color: green; /* Set the background color */
+   
+   
+      color: white; /* Set text color to white */
+      font-weight: bold; /* Make text bold */
+    }
+    
+   
+    
+
+
+  .fty {
+padding:10px;
+  display: inline;
+    color: black;
+    transition: transform 0.3s; /*, font-size 0.3s*/
+    font-size:16px !important;
+    
+   
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Change flex direction to column */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .c345 {
+      flex: 0 0 100%; /* Set the middle item to occupy full width */
+    }
+  }
+ .fty:hover  {
+    transform: scale(1); /* Increases size by 10% */
+  
+    font-size: large; /* Increases font size */
+   color: var(--yellow3); /* Highlights with var-yellow3 color */
+   /* Add padding for better visibility */
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    font-family: var(--font-family1); 
+    padding-right: 20px;
+  }
+  
+  .c345 {
+    padding:10px;
+    font-family: var(--font-family1); 
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    font-family: var(--font-family1); 
+    color: #777; 
+    max-width: 100%;
+    overflow-wrap: break-word; /* Wrap text */
+  }
+  
+  @media (max-width: 768px) {
+    .text {
+      font-size: medium; /* Font size for medium screen */
+    }
+    .c345 {
+        justify-content: center;
+        padding-left: 90px;
+        padding-right: 90px; /* Center text for large and xlarge screens */
+        line-height: 2; 
+      }
+  }
+  
+  @media (min-width: 769px) {
+    .text {
+        font-size: large; /* Font size for medium screen */
+      }
+    .c345 {
+      justify-content: center;
+      padding-left: 90px;
+      padding-right: 90px; /* Center text for large and xlarge screens */
+      
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .text {
+        font-size: 20px; /* Font size for medium screen */
+      }
+      .c345 {
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px; /* Center text for large and xlarge screens */
+      }
+  }
+  
+  .navbar {
+    background-color: var(--gray) !important;
+  }
+  .navbar-nav {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: var(--gray) !important;
+  }
+  .navbar-container {
+    background-color:var(--gray);
+    display: flex;
+    flex-direction: row;
+    align-items:self-start; 
+    justify-content: center;/* Center items vertically */
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center; /* Center items vertically */
+     /* Remove default underline */
+     text-decoration: none;
+    
+    
+  }
+  .brand-text {
+    margin-left: 10px; /* Adjust spacing between logo and text */
+  
+    
+    color:var(--yellow3);
+    font-family: var(--font-family1); /* Set font to Arial */
+    font-weight: 900;
+  
+  }
+ /*  .brand-text:hover,
+.brand-text:focus {
+  border-bottom: 2px solid black; Remove border on hover and focus 
+}
+
+  .brand-text:hover {
+    border: 1px dotted var(--yellow3); /* Dotted border on hover with mustard color
+  }
+  */
+
+  .brand-text:not(:hover):not(:focus) {
+    border: 1px dotted var(--yellow3); /* Display border when not hovered and not focused */
+  }
+ 
+
+ 
+  
+  @media (max-width: 768px)  {
+   
+      .brand-text {
+        font-size: 25px; /* Font size for screens narrower than 768px */
+      }
+  }
+ 
+ 
+    @media (min-width: 769px) {
+   
+        .brand-text {
+          font-size: 30px; /* Font size for screens narrower than 768px */
+        }
+    }
+    @media (min-width: 1200px) {
+        .brand-text {
+          font-size: 40px; /* Font size for screens wider than 1200px */
+        }}
+  .dropdown-menu {
+    display: none;
+  }
+  
+  /* Show the dropdown menu when the dropdown link is hovered */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu .dropdown-item {
+    padding: 0; /* Add padding to dropdown items */
+  /* Align text to the left */
+  margin: -10px 0; 
+  padding: 8px 16px;
+  }
+
+
+/* Set the font family and padding for the nav and ul */
+.navbar,.navbar-nav
+{
+    font-family: var(--font-family1);
+  font-size: 18px;
+ margin: 0;
+ padding:0;
+  display: flex;
+  flex-direction: row;
+  background-color:var(--gray) !important;
+  flex: 1;
+  /*Grow to fill any available space along the main axis (flex-grow: 1).
+Shrink to avoid overflowing the container (flex-shrink: 1).
+
+font-family: var(--font-family1);
+
+
+Start with a flex basis of 0, allowing it to grow and shrink 
+to fit the available space (flex-basis: 0).*/
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item{
+  
+   
+    transition: transform 3s ease; 
+}
+/* Align the nav and ul items to the middle */
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color:var(--gray) !important;
+}
+
+/* Increase font size and change font color when hovering over li items */
+.nav-item .nav-link:hover {
+   font-weight: 700;
+ 
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out; 
+  color: var(--yellow3) !important; /* Change font color to yellow */
+
+}
+
+.nav-link {
+  display: block;  /* Ensure nav links take up full width of parent */
+    padding-top:10px; /* Adjust vertical padding as needed */
+    text-align: left; /* Center text horizontally */
+  }
+
+.nav-item .nav-link {
+    font-size: 18px; 
+    margin: 0; 
+  }
+
+
+ .dropdown-menu .dropdown-item:hover {
+    background-color: var(--yellow3); 
+    color: white; 
+  }
+
+
+  @media (max-width: 992px) {
+
+    .navbar {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      justify-content: flex-start; /* Align items to the left */
+
+    }
+  
+    .nav-item {
+      text-align: left; /* Align text to the left */
+      margin-right: auto; /* Push nav items to the left */
+      margin-left: 10px;
+    }
+  
+
+    .nav-item:hover {
+      background-color: var(--yellow3) ; /* Set yellow background color */
+      display: block;
+      width: 100vw; /* Make the nav item cover the entire viewport width */
+     color:black !important;
+    
+
+    }
+
+.nav-item .nav-link{
+  display: flex;
+  align-items: left;
+  text-align: left !important;
+ 
+}
+    .nav-item .nav-link:hover {
+      font-weight: 700;
+      margin-left: none !important;
+     color: black !important; /* Change font color to yellow */
+     transform: none !important;
+     transition: transform none !important; 
+   }
+   .dropdown-menu {
+    padding: 0; /* Remove padding to reduce white space */
+  
+  }
+  .dropdown-menu .dropdown-item {
+    padding: 0; /* Add padding to dropdown items */
+  /* Align text to the left */
+  margin: -10px -3px; 
+  padding: 8px 16px;
+  }
+  .dropdown-menu  {
+    background-color: var(--yellow3); 
+    
+    color: white; 
+  }
+
+
+    .dropdown-menu .dropdown-item:hover {
+      background-color: var(--yellow3); 
+      
+      color: white; 
+    }
+  
+  }
+
+
+
+
+ /*
+  .imageingbox {
+    max-height: 250px !important; /* Set the maximum height for the container 
+    overflow: hidden; Hide any overflow content 
+
+  }
+  
+  .imageingbox img {
+    max-width: 100% !important; /* Limit the width of the image to its original width 
+    max-height: 20% !important; /* Limit the height of the image to its original height 
+    object-fit: cover;
+  }
+  */
+  .imageingbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .imageingbox img {
+    width: 100%;
+    
+    max-height: 150px; /* Set maximum height for the image */
+    overflow: hidden; 
+
+
+
+max-width: 100%; 
+  
+height: auto; /*  height:100%;   overflow: hidden; 
+object-fit: cover;
+
+Ensure the image maintains its aspect ratio */
+display: block;
+position: relative;
+overflow: hidden; 
+object-fit: cover;
+max-height: 100px; /* Set maximum height for the image */
+
+
+
+filter: brightness(100%);
+  }
+  
+  .imageingbox p {
+    position: absolute; /* Position the paragraph absolutely within its containing block */
+ 
+   font-size:40px;
+  
+   text-align: center; /*cenetr text horiontally*/
+  display: flex;
+  justify-content: center; /* Center the text vertically */
+  align-items: center;
+ 
+      /* Remove any default margins */
+   /* Remove any default padding */
+ 
+ 
+ top:0;
+ left:0;
+ right: 0;
+ bottom:0;
+ /* Position the paragraph absolutely within its containing block */
+ width: 100%;
+ height: 100%;
+   /* Position it at the top of its containing block */
+   max-width: 100%;
+    /* Adjust the margin to position the paragraph on top of the image */
+    background-color: rgba(36, 30, 30, 0.76); /* Add a semi-transparent black background */
+    color: #ffffff; /* Set text color to white */
+    font-weight: bold; /* Set font weight to bold */
+    padding: 5px; /* Add some padding for better readability */
+    font-family: var(--font-family3); 
+
+    font-size:xx-large;
+  }
+  
+
+
+  @media (max-width: 767px) {
+   
+  
+    .imageingbox img {
+      width: 100%;
+      height: auto; 
+      max-height: 170px;
+        /* Reset maximum height for smaller screens */
+    }
+  
+    .imageingbox p {
+      width: 100%;
+    
+      font-size:larger;
+    }
+  }
+
+  @media (min-width: 768px) {
+   
+  
+    .imageingbox img {
+      width: 100%;
+      height: auto; 
+      max-height: 170px;
+        /* Reset maximum height for smaller screens */
+    }
+  
+    .imageingbox p {
+      width: 100%;
+     
+      font-size:larger;
+    }
+  }
+
+  /* Media queries for responsive design */
+  @media (min-width: 1200px) {
+    .imageingbox img {
+      
+      /* Reset maximum height for medium screens */
+      width: 100%;
+      height: auto;
+      max-height: 200px; /* Set maximum height for the image */
+      overflow: hidden; 
+  object-fit: cover;
+    }
+
+    .imageingbox p {
+      width: 100%;
+   
+      font-size:xx-large;
+    }
+
+  }
+
+
+  .about-section1 {
+    background-color:var(--gray) !important;/* Gray background */
+  padding-top: 10px;
+    display: flow-root; /* Clear floats */
+  }
+  .about-section1 {
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+  }
+  .about-section2 {
+    background-color: #ffffff; 
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    display: flow-root; /* Clear floats */
+  }
+  .about-section3 {
+    background-color: var(--gray) !important;
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    display: flow-root; /* Clear floats */
+  }
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0; /* Remove padding-bottom */
+  
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .content-container1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    justify-content:flex-start;
+
+  }
+  .content-container105 {
+    display: flex;
+    flex-direction: row;
+   margin-bottom:2px;
+    justify-content:center;
+
+  }
+  .text-container1 {
+    flex: 1;
+    line-height: 2; 
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    
+   color: var(--gray1);
+  }
+  
+  .image-container1 {
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    flex:1;
+   /* Set position to fixed */
+   top: 20px; /* Adjust the top margin as needed */
+    right: 20px; /* Adjust the right margin as needed */
+     /* Set a high z-index to ensure the image container appears above other content */
+  }
+  
+
+  .image-container1 img {
+    max-width: 100%;
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    height: auto;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+  .image-container123 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images horizontally */
+  }
+  
+  .image-container123 img {
+    max-width: 100%;
+    width:100%;
+    height:55%;
+    display:block;
+    object-fit: cover;
+    /* Add space between images */
+  }
+
+
+
+
+  @media (max-width: 980px) {
+ 
+    .content-container105 {
+      display: flex;
+      flex-direction: column;
+    
+     align-items: end;
+      justify-content:space-between;
+  
+    }}
+
+
+  @media (max-width: 768px) {
+    .content-container1 {
+      flex-direction: column;
+    }
+  
+     .image-container1 {
+      width: 100%;
+
+      padding: 0;
+    }
+    
+    
+    .image-container123,.img345 {
+      width: 100%;
+      align-items: center; /* Center images horizontally */
+    }
+  
+    .image-container123 img {
+      margin-bottom: 20px; /* Add space between images */
+    }
+
+
+
+
+
+
+
+    .text-container1{
+      width: 100%;
+      line-height: 2; 
+      padding: 0;
+      margin-top:15px;
+      color: var(--gray1);
+
+    }
+
+    .image-container1 img {
+      max-width: 100%;
+      height: auto;
+    }
+   
+
+  }
+
+  ::selection {
+    background-color: var(--yellow3);
+    color:black;
+  }
+  .text-heading {
+    background-image: linear-gradient(to bottom,  #e2b327, #e2b40cee);  /* Define linear gradient background */
+    padding: 2px; /* Add padding for spacing */
+   margin:auto 0;
+   line-height: 2; 
+    font-weight: 700;
+    font-family: var(--font-family3); 
+    font-size: 20px;  
+    color: rgba(22, 22, 22, 0.9);  /* Set text color */
+    display: flex; /* Use flexbox */
+    justify-content: left; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+
+
+
+  .background-gray3 {
+    background-color: var(--gray3); /* Gray background */
+    display: flex; 
+    padding: 0; /* Remove padding-bottom */
+    margin:0;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .image-container12 {
+    margin-top: 5px; /* Adjust margin as needed */
+    width: 20%; /* Width for large and extra-large screens */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; 
+    text-align: center; /* Center the image horizontally */
+   
+  }
+  
+  
+  .image-container12 img {
+    max-width: none; /* Prevent the image from being resized */
+    /* Make the image fill the container      width: 100%;    */
+    height: auto; /* Maintain aspect ratio */
+
+    display: inline-block; /* Ensure the image is centered */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .text-block12 ul {
+    list-style-type: disc; /* Set bullet points */
+    margin-left: 20px; /* Add margin to align bullet points */
+}
+
+.text-block12 li {
+    line-height: 2; /* Set line height */
+}
+
+  .text-block12 {
+   width:1200px;
+    margin:0 auto; /* Center horiontal */
+max-width: none;
+text-align: center;
+justify-content: center;
+ 
+  line-height: 2; 
+  padding: 20px 40px;
+ color: var(--gray1);
+   /* text-align: justify;
+  flex: 1;
+    white-space: nowrap;  Prevent text from wrapping */
+  /*  overflow: visible;
+  /*  overflow: hidden; /* Hide overflow text */
+  /*  text-overflow: ellipsis;  Add ellipsis (...) to indicate overflow */
+
+  }
+  
+
+  .text-block123 {
+    width:1200px;
+     margin:0 auto; /* Center horiontal */
+ max-width: none;
+ text-align: center;
+ justify-content: center;
+  
+   line-height: 2; 
+   padding: 0 40px;
+  color: var(--gray1);
+    /* text-align: justify;
+   flex: 1;
+     white-space: nowrap;  Prevent text from wrapping */
+   /*  overflow: visible;
+   /*  overflow: hidden; /* Hide overflow text */
+   /*  text-overflow: ellipsis;  Add ellipsis (...) to indicate overflow */
+ 
+   }
+   @media (max-width: 1200px) {
+    .text-block123{
+
+      width:100%;
+      color: var(--gray1);
+       margin:0 auto; /* Center horiontal */
+       max-width: none; /* Remove flexibility */
+     flex: 1;
+     line-height: 2; 
+     text-align: justify;
+     text-justify:newspaper;
+     padding:0 20px;
+    color: var(--gray1);
+      /* text-align: justify;
+     
+       white-space: nowrap;  Prevent text from wrapping */
+     /*  overflow: visible;
+     /*  overflow: hidden; /* Hide overflow text */
+     /*  text-overflow: ellipsis;  Add ellipsis (...) to indicate overflow */
+   
+     }
+
+
+
+   }
+ 
+  @media (max-width: 1200px) {
+    
+    .image-container12
+  {
+      width: 100%; /* overflow:hidden to crop the image */
+                  /* max-width to resixing is not here*/
+    }
+    .text-block12 {
+      width:100%;
+      color: var(--gray1);
+       margin:0 4px; /* Center horiontal */
+       max-width: none; /* Remove flexibility */
+     flex: 1;
+     line-height: 2; 
+     text-align: justify;
+     text-justify:newspaper;
+     padding:  0 20px;
+    color: var(--gray1);
+      /* text-align: justify;
+     
+       white-space: nowrap;  Prevent text from wrapping */
+     /*  overflow: visible;
+     /*  overflow: hidden; /* Hide overflow text */
+     /*  text-overflow: ellipsis;  Add ellipsis (...) to indicate overflow */
+   
+     }
+   
+  }
+  .color-div34 {
+    background-color: var(--yellow3); /* Set your desired background color */
+    width: 100%; /* Set a fixed width for the container */
+  
+    display: flex;
+    margin: auto;
+  /* Center the content horizontally */
+    align-items: center;
+    justify-content: center; /* Center the heading horizontally */
+  }
+  
+  .heading34 {
+    color: black; /* Set text color */
+    font-family: var(--font-family1);
+    font-weight:900;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for better appearance */
+  }
+
+
+  .color-div345 {
+    background-color: var(--yellow3); /* Set your desired background color */
+   
+    /* Take up the full height of the viewport */
+    margin: 0 auto; 
+max-width: 1135px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally and vertically */
+}
+  .heading345 {
+    color: black; /* Set text color */
+    font-family: var(--font-family1);
+    font-weight:900;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for better appearance */
+  }
+  
+
+.h45{
+  font-family: var(--font-family1);
+  text-align:left;
+  color:black;
+}
+h3{
+
+  font-family: var(--font-family1);
+}
+
+.classname li {
+  font-family: var(--font-family3);
+  text-align: left;
+  font-weight: 700;
+  margin-left:18px;
+  color: black;
+  list-style-type: decimal; 
+}
+
+.classname li::marker {
+  list-style-type: decimal; /* Set the list-style-type to decimal for numbered bullets */
+  font-weight: bolder;
+}
+
+
+.asgfd {
+  background-color: transparent;
+  border: 1px dotted;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding:10px 20px;
+}
+
+.asgfd:hover {
+  background-color: var(--yellow3); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section22 {
+  background-color: #ffffff; 
+  padding-top: 50px ;
+  padding-bottom:0;
+   /* Clear floats */
+  max-height: 900px; /* Set a maximum height for the section */
+ 
+
+}
+
+
+
+
+.about-section2 {
+  background-color: #ffffff; 
+  padding: 10px 0;
+  display: flow-root; /* Clear floats */
+ 
+
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.content-container1 {
+  display: flex;
+  flex-direction: row;
+ margin-bottom:2px;
+justify-content:space-between;
+
+
+}
+
+.text-container1 {
+  flex: 1;
+  line-height: 2; 
+  padding: 18px 18px;
+  margin-right:50px;
+ color: var(--gray1);
+}
+
+
+@media (max-width: 768px) {
+
+
+
+
+  
+  .content-container1 {
+    flex-direction: column;
+  }
+
+
+  .text-container1{
+    width: 100%;
+    line-height: 2; 
+    padding: 0;
+    margin-top:15px;
+    color: var(--gray1);
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar1 {
+  background-color: var(--gray) !important;
+}
+.navbar-nav1 {
+  margin: 0; /* Remove default margin */
+  
+  padding: 0; /* Remove default padding */
+  background-color: var(--gray) !important;
+}
+.navbar-container1 {
+  background-color:var(--gray);
+  padding: 5px 5px;  
+  display: flex;
+  flex-direction: row;
+  align-items:self-start; 
+
+}
+.navbar-brand1 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+   /* Remove default underline */
+   text-decoration: none;
+   
+  
+}
+.brand-text1 {
+  margin-left: 10px; /* Adjust spacing between logo and text */
+ line-height: 1;
+  text-align: justify;
+  color:var(--yellow3);
+  font-family: var(--font-family1); /* Set font to Arial */
+  font-weight: 900;
+
+}
+/*  .brand-text:hover,
+.brand-text:focus {
+border-bottom: 2px solid black; Remove border on hover and focus 
+}
+
+.brand-text:hover {
+  border: 1px dotted var(--yellow3); /* Dotted border on hover with mustard color
+}
+*/
+
+.brand-text:not(:hover):not(:focus) {
+  border: 1px dotted var(--yellow3); /* Display border when not hovered and not focused */
+}
+
+
+
+
+@media (max-width: 768px)  {
+ 
+    .brand-text1 {
+      font-size: 25px; /* Font size for screens narrower than 768px */
+    }
+}
+
+
+  @media (min-width: 769px) {
+ 
+      .brand-text1 {
+        font-size: 30px; /* Font size for screens narrower than 768px */
+      }
+  }
+  @media (min-width: 1200px) {
+      .brand-text1 {
+        font-size: 40px; /* Font size for screens wider than 1200px */
+      }}
+
+
+
+      .footer1 {
+        background-color: var(--yellow3) !important; /* Default background color */
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+      /* Greyish background color */
+        text-decoration: none !important;
+        z-index: 0; /* Ensure footer appears above other content */
+      }
+
+
+
+
+      .footer {
+        background-color: var(--gray) !important; /* Default background color */
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+      /* Greyish background color */
+        text-decoration: none !important;
+        z-index: 0; /* Ensure footer appears above other content */
+      }
+      
+      a {
+        text-decoration: none !important;
+        color: black !important;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+        transition: all .3s ease;
+      }
+      
+      .container3409 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+      }
+      
+      .column3409 {
+        padding :20px;
+        margin-right: 30px;
+        flex: 1;
+        text-align: justify;
+      }
+      
+      .column3409 h5 {
+        margin-bottom: 10px;
+      }
+      
+      .column3409 ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .column3409 ul li {
+        margin-bottom: 5px;
+        text-align: justify;
+      }
+      
+      .social-icons {
+        margin-top: 10px;
+      }
+      
+      .social-icons a {
+        margin-right: 10px;
+        color: #333; /* Adjust color as needed */
+        font-size: 30px; /* Increase icon size */
+      }
+      
+      .social-icons a:hover {
+        color: black; /* Change color on hover */
+        padding: 7px;
+      }
+      
+      /* Adjustments for smaller screens */
+      @media (max-width: 900px) {
+        .footer {
+        
+          padding: 1px 0;
+          text-align: center;
+          bottom: 0;
+          width: 100%;
+          background-color: var(--gray) !important;
+          z-index: 0; /* Ensure footer appears above other content */
+        }
+      
+        .container3409 {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      
+        .column3409 {
+          flex: 1; /* Set column width to occupy more space */
+          width: 100%; /* Set column width to full width */
+          margin-bottom: 5px; /* Add space between columns */
+          text-align: justify;
+        }
+      
+        .column3409 h5 {
+          margin-bottom: 1px;
+        }
+      
+        .column3409 ul {
+          list-style: none;
+          padding: 0;
+        }
+      
+        .column3409 ul li {
+          margin-bottom: 5px;
+          text-align: justify;
+          max-width: 100%;
+        }
+      
+        .social-icons {
+          margin-top: 10px;
+        }
+      
+        .social-icons a {
+          margin-right: 10px;
+          color: #333; /* Adjust color as needed */
+          font-size: 30px; /* Increase icon size */
+        }
+      
+        .social-icons a:hover {
+          color: black; /* Change color on hover */
+        }
+      }
+      
+
+      .background-yellow3 {
+        background-color: var(--yellow4); /* Gray background */
+        display: flex;
+        height:20px;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        justify-content: center;
+      }
+
+
+      h3{
+margin-left: 20px;
+      }
+

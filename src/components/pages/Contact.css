@@ -1,0 +1,147 @@
+
+.map-container {
+ display: flex;
+ justify-content: center;
+ background-size: cover; 
+  height: 600px; /* Adjust height as needed */
+  border: 0;
+  background-repeat: repeat;
+}
+
+
+iframe{
+    filter: grayscale(100%);
+    width:100%;
+}
+
+
+
+
+
+
+
+
+.required-message {
+    font-size: 12px;
+    color: red;
+    display: none; /* Initially hide the required message */
+  }
+  
+  input:invalid + .required-message {
+    display: block; /* Show the required message when the input is invalid */
+  }
+
+  
+
+.error-message {
+    position: absolute;
+    bottom: -20px; /* Position the error message below the input field */
+    left: 0;
+    font-size: 12px;
+    color: red;
+    display: none; /* Initially hide the error message */
+  }
+  
+  .error input[type="text"] {
+    border-color: red; /* Highlight border in red for error */
+  }
+  
+  .error .error-message {
+    display: block; /* Show the error message */
+  }
+
+
+
+
+
+
+
+
+.color-divcontact {
+    background-color: #0077ffb6; /* Set your desired background color */
+   
+    /* Take up the full height of the viewport */
+    margin: 0 auto; 
+max-width: 835px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally and vertically */
+}
+  .headingcontact {
+    color: rgb(255, 255, 255); /* Set text color */
+    font-family: var(--font-family1);
+    font-weight:900;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for better appearance */
+  }
+  
+
+  .form-row {
+    display: flex;
+   align-items: center;
+ justify-content:center;
+margin: 0;
+  
+  }
+  .form-column {
+ 
+     /* Allow columns to grow and occupy equal space */
+    width: 410px !important;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .form-group.center1 {
+  
+   
+   margin:0 auto;
+    /* Add margin between columns */
+    
+  }
+  
+  .form-group {
+ 
+ 
+  }
+  
+  .form-row1 {
+    display: flex;
+   align-items: center;
+ justify-content:center;
+ margin-bottom: 20px;
+
+  
+  }
+  .form-column1 {
+ 
+     /* Allow columns to grow and occupy equal space */
+    width: 830px !important;
+    margin-right: 10px;
+  }
+  .form-group.center {
+    margin: 0;
+  
+  
+  
+   /* Set width to 80% */
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    flex:1;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
